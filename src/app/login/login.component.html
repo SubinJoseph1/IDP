@@ -1,0 +1,15 @@
+<div class="menu">
+    <h1>Login Here</h1>
+    <form>
+      <label>Name:</label><input type="text" #myname  id="name"autocomplete="off">
+      <br>
+      <label>Password:</label><input type="text" id="pass" #mypass  autocomplete="off">
+      <br>
+     
+      <input type="button" id="btn" value="LOGIN" (click)="register(myname.value,mypass.value)">
+    </form>
+  
+  
+    <a routerLink="registerPage" (click)="Log()" >Don't have Account?Regsiter here!</a>
+    
+  </div>

@@ -22,6 +22,8 @@ import { NavComponent } from './nav/nav.component';
 import { C1Component } from './c1/c1.component';
 import { C2Component } from './c2/c2.component';
 import { C3Component } from './c3/c3.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { C3Component } from './c3/c3.component';
     NavComponent,
     C1Component,
     C2Component,
-    C3Component
+    C3Component,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

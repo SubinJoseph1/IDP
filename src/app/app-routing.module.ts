@@ -5,14 +5,25 @@ import { BodyComponent } from './body/body.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { DesignComponent } from './design/design.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { LoginComponent } from './login/login.component';
 
 import { ChennaiComponent } from './othersites/chennai/chennai.component';
 import { KeralaComponent } from './othersites/kerala/kerala.component';
 import { MaduraiComponent } from './othersites/madurai/madurai.component';
 import { GalleryComponent } from './properties/gallery/gallery.component';
 import { SinglepropertyComponent } from './properties/singleproperty/singleproperty.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
+  {
+    path:'loginPage',
+    component:LoginComponent
+
+  },{
+    path:'registerPage',
+    component:RegisterComponent
+  },
+
   {
     path:"dreamhouse",
     component:BodyComponent

@@ -1,0 +1,28 @@
+.menu{
+    border: 1px solid;
+    width: 40%;
+    margin-top: 80px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#myname{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#mypass{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#myphone{
+    margin-bottom: 10px;
+    margin-left: 24px;
+}
+
+#reg{
+    margin-bottom: 10px;
+}
