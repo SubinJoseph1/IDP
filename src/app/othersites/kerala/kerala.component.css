@@ -1,0 +1,39 @@
+.menu{
+    width: 80%;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+h1{
+    margin-top: 70px;
+    text-align: center;
+
+}
+.row{
+    width: 90%;
+    padding-top: 30px;
+    
+}
+.col1{
+    width: 30%;
+    float: left;
+}
+.col2{
+    width: 40%;
+    float: left;
+}
+.col3{
+    width: 30%;
+    float:left;
+}
+
+.rampauram{
+    font-size: 30px;
+    
+    font-weight: 600px;
+}
+.rc{
+    font-size: 25px;
+    font-weight: 600px;
+}

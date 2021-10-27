@@ -1,0 +1,76 @@
+.menu{
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+h5{
+    margin: 80px 0 0 0;
+    color: #bf9410;
+    font-weight: 600;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.067em;
+    font-family: "Old Standard TT",serif;
+}
+
+p{
+    width:fit-content;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+.atag{
+    text-align: center;
+    margin:  30px 0 0 0;
+    
+    
+}
+a{
+    color: #fff;
+    font-family: inherit;
+    
+    
+    background-color: #bf9410;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 13px 23px 13px 33px;
+}
+
+.mapouter{
+    margin-top: 60px;
+}
+
+
+
+
+.container-fluid{
+    margin: 5px 0 0 0 ;
+    padding: 0 0 0 0 ;
+    background-image: linear-gradient(to left,#2e3329,gray);
+}
+
+li{
+    padding: 30px 0 0 0;
+    display: block;
+    font-size: 20px;
+    color: white;
+    font-family: serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

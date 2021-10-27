@@ -1,0 +1,38 @@
+
+.homePage{
+    margin: 0 0 0 0;
+    height: 700px; position: relative;
+    background-size: cover;
+    z-index: -1;
+    background-image: url("../../assets/Images/bg1.jpg");
+}
+.row1{
+    float:right;
+    padding: 100px 0 0 0;
+    
+   
+}
+
+.row1 h1{
+    
+    color: white;
+    text-align: justify;
+    font-size: 100px;
+}
+.row1 p{
+    
+    text-align: justify;
+    color: white;
+     font-size: 20px;
+}
+.row2{
+    
+    background-color: #34421e;
+}
+.container-fluid{
+    width: 80%;
+}
+
+.row{
+    padding: 40px 0 40px 0;
+}

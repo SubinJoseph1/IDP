@@ -1,0 +1,155 @@
+.maincontainer{
+
+        width: 80%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #6d8448;
+    font-family:'Open Sans',sans-serif;
+    font-size: 60px;
+
+}
+
+
+.col1{
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+
+h2{
+    margin: 100px 0 0 0 ;
+    color: wheat;
+    padding-top: 100px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+p{
+    width: 65%;
+    padding: 30px 0 0 0;
+    margin-left: 10px;
+    text-align: justify;
+    color:wheat
+}
+
+a{
+    float: left;
+    height: 50px;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #294f43;
+    color: white;
+    padding:  0 10px 0 10px;
+    line-height: 50px;
+border-radius: 10px;
+}
+
+a:hover{
+
+    font-size: 30px;
+    background-color: tomato;
+}
+
+
+.clr{
+    clear: both;
+}
+
+h3{
+    text-align: center;
+color: #6d8448;
+    font-size: 60px;
+}
+
+
+.roundimage{
+    padding-top: 10px;
+    width: 40%;
+    height: 200px;
+    border-radius: 169px;
+}
+
+.rimg{
+    border-radius: 169px;
+    background-size: cover;
+}
+
+.row2h2{
+    margin: 0;
+    color: #c19434 !important;
+    padding-top: 20px;
+}
+
+
+.row2p2{
+    color: #c19434 !important;
+}
+
+
+.blogDiv{
+    width: 97%;
+    padding: 0 0 30px 0 ;
+    margin-left: auto !important;
+    background-image: linear-gradient(to left,black,gray);
+    margin-right: auto !important;
+}
+
+.title{
+    text-align:center;
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.row1{
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.col{
+    float: left;
+    margin: 0 0 0 10px;
+    width: 30%;
+    background-color: white;
+    padding: 0 0 30px 0;
+    
+}
+
+#imgh{
+    color: black;
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-weight: bolder;
+    margin: 0 0 0 10px;
+    font-size: 20px;
+}
+#imgp{
+    width: 100%;
+    color: black;
+    margin: 0;
+    padding: 10px 0 0 10px ;
+    font-size: 15px;
+}
+
+#imga{
+    margin:10px 0 0 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

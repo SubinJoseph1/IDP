@@ -1,0 +1,45 @@
+.menu{
+    width: 80%;
+    margin: 80px 0 0 0;
+    
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+ul{
+    text-align: center;
+}
+li{
+    display: inline;
+    margin: 0 0 0 10px;
+   background-color: #bf9410;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 13px 23px 13px 43px;
+    
+}
+a{
+    font-family: inherit;
+    font-weight: bolder;
+    color:white
+}
+
+li:hover{
+    background-image: linear-gradient(to left,wheat,wheat);
+    
+} a:hover{
+    color: black;
+}
+
+.second{
+    margin: 50px 0 0 0;
+}
+
+.h1,.h2,.p{
+    text-align: justify;
+    font-family: "Open Sans",sans-serif;
+    
+    color: #7b7b7b;
+}
+.h1{
+    padding-top: 20px;
+}
