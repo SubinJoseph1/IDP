@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServiceDemoService } from '../service-demo.service';
 
 @Component({
   selector: 'app-errorpage',
@@ -12,9 +13,21 @@ export class ErrorpageComponent implements OnInit {
 emi:any;
   rateOfIntrest="";
  b:any;
-constructor() {}
+ nameprint="";
+ phoneprint:any;
+constructor(private name:ServiceDemoService) 
+{
+  this.nameprint=this.name.Username;
+  this.phoneprint=this.name.phone;
+  console.log(this.nameprint);
+}
 
 mydata="";
+
+
+
+
+
 
 abc(e:any)
 {   
@@ -44,7 +57,9 @@ cal(principle:any,month:any,rate:any)
     this.rate=rate;
     var a=this.principle*this.month*this.rate;
     this. b=a/100;
-    this.emi=(principle-this.b)/month;
+    this.emi=principle*rate*(1+rate)*month
+    this.emi=this.emi/((1+rate)*month-1)
+
     console.log(this.emi)
 }
 

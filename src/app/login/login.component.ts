@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ServiceDemoService } from '../service-demo.service';
 
 @Component({
   selector: 'app-login',
@@ -21,6 +22,9 @@ export class LoginComponent implements OnInit {
   
   this.myname= localStorage.getItem("Username");
   this.mypass= localStorage.getItem("Password");
+
+    
+  
 
   if(Username==null||Username==""){
     alert("Please Provide name");

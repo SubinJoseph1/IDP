@@ -1,3 +1,17 @@
+.body{
+    width: 80%;
+    margin: 0 0 0 0;
+    padding: 70px 0 70px 0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-image: url(../../assets/Images/lockpic.jpg);
+    border-radius: 10px;
+}
+
+
+
+
+
 .menu{
     border: 1px solid;
     width: 40%;

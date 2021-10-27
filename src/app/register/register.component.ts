@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ServiceDemoService } from '../service-demo.service';
 
 @Component({
   selector: 'app-register',
@@ -12,31 +13,43 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  array1:any
-   
+ 
+  lusernmae:string="";
+  lpassword="";
+  lemail="";
 
-  constructor(private router:Router) { }
 
+  constructor(private router:Router,private service:ServiceDemoService) {
+
+     }
+  
 login(Name:any,Password:any,phone:any){
-
-    this.array1={
-    "Username":Name,
-    "Password":Password,
-    "Phone":phone
+  if(Name==""|| Password=="" ||phone=="" ){
+    alert("Please provide value");
+    return;
+  }
+  this.service.username(Name,phone);
+    let array1={
+      lusernmae:Name,
+      lpassword:Password,
+      lemail:phone
   }
 
 
 
 
-  console.log(this.array1)
+  // console.log(this.array1)
 
 
+  localStorage.setItem(Name,JSON.stringify(array1));
+  
+  
+
+  // localStorage.setItem("Username",Name);
+  // localStorage.setItem("Password",Password);
+  // localStorage.setItem("Phone",phone);
  
-
-  localStorage.setItem("Username",Name);
-  localStorage.setItem("Password",Password);
-  localStorage.setItem("Phone",phone);
-
+  this.router.navigateByUrl('loginPage');
 }
 
 reg(){
